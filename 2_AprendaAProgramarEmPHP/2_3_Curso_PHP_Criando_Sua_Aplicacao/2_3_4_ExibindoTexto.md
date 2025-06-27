@@ -1,4 +1,4 @@
-#Considere o seguinte trecho de código em PHP:
+Considere o seguinte trecho de código em PHP:
 
 <?php
 
