@@ -54,12 +54,11 @@ Exemplo:
 $a = 10; // Atribui o valor 10 à variável $a
 $b = 5; // Atribui o valor 5 à variável $b
 $c = 30; // Atribui o valor 30 à variável $c
-```
 $igual = $b == $a; // Nesse caso, a variável $igual ficará com o valor *false*, pois o valor de $b não é igual ao valor de $a.
 $diferente = $b != $c; // A variável $diferente ficará com o valor *true*, pois o valor de $b é diferente do valor de $c.
 $maior = $b > $a; // A variável maior ficará com o valor *false*, pois o valor de $b é menor que o valor de $a.
 $menorIgual = $b <= $c; // A variável $menorIgual ficará com o valor *true*, pois o valor de $b é menor que o valor de $c.
-
+```
 A diferença entre == e === e entre != e !== é que os tipos são levados em consideração. Por exemplo:
 ```php
 $a = '1';
