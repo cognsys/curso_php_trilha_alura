@@ -32,13 +32,21 @@ Operadores de comparação
 Os operadores de comparação, como seu nome diz, são usados para comparar valores. Eles retornam um valor booleano (verdadeiro ou falso). Trabalharemos melhor com eles quando estivermos na aula de condicionais, em que vamos modificar o fluxo da aplicação dada alguma condição. Alguns operadores de comparação no PHP são:
 
 == (igual a)
+
 === (idêntico a)
+
 != (diferente de)
+
 <> (diferente de)
+
 !== (não idêntico a)
-> (maior que)
->= (maior ou igual a)
+
+\> (maior que)
+
+\>= (maior ou igual a)
+
 < (menor que)
+
 <= (menor ou igual a)
 
 Exemplo:
