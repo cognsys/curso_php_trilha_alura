@@ -4,9 +4,11 @@ Entrada de dados
 Se estamos falando do mundo web, por exemplo, um formulário é uma maneira da pessoa usuária entrar dados em nosso programa. A pessoa digita dados no formulário e, ao enviar esse formulário, os dados chegam em nosso servidor, no nosso código PHP.
 
 Como não estamos falando do mundo web, podemos explorar uma forma de receber dados do terminal. Por exemplo, queremos abrir o terminal, executar o programa com php screen-match.php e também digitar o ano de lançamento desse filme, por exemplo, 2022 e conseguir pegar esse dado em nosso programa.
+
 ```php
 php screen-match.php 2022
 ```
+
 No PHP, é muito fácil fazer isso, da mesma forma como é feito em C ou Java. A diferença é que nessas linguagens envolve um conceito mais complexo de funções. Enquanto em PHP, temos uma variável quase mágica, que é criada automaticamente.
 
 Essa variável, que queremos atribuir ao ano de lançamento, é chamada de $argv, a qual contém todos os valores que forem passados no terminal.

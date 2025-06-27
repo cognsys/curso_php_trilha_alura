@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="416d8ab1-757e-450c-92a6-6ae01f68a3e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/2_1_3_2_6_PraticandoConcatenacao_Exercicio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/2_1_3_2_7_EntradaDeDados_Exercicio.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750964521208</updated>
       <workItem from="1750964522415" duration="8000" />
-      <workItem from="1751041120815" duration="4456000" />
+      <workItem from="1751041120815" duration="4848000" />
     </task>
     <servers />
   </component>
