@@ -6,12 +6,12 @@ Voltando ao Visual Studio Code, vamos tomar como exemplo a nota de um filme. Nor
 Vamos supor que demos nota 9 para esse filme, mas outra pessoa deu a nota 6, outra deu a nota 8, outra a nota 7,5, e uma última pessoa deu a nota 5, uma nota bem baixa. Queremos somar o nosso 9 com os valores das outras pessoas. Para isso, vamos utilizar entre cada número o símbolo de adição (+), usado no PHP para realizar somas.
 
 Essa alteração será feita na linha 8, onde temos a variável $notaFilme. Vamos substituir seu valor 8.8 pela soma mencionada.
-```
+```php
 $notaFilme = 9 + 6 + 8 + 7.5 + 5;
 ```
 
 Em seguida, queremos tirar a média dessas notas. Então, queremos somar cinco notas e dividir essa soma por 5, que é o total de notas que temos. Poderíamos acessar o final dessa linha, após o 5 e dividir esse valor todo por 5, adicionando o símbolo de divisão no PHP que, assim como na maioria das linguagens, é a barra (/), seguida do 5.
-```
+```php
 $notaFilme = 9 + 6 + 8 + 7.5 + 5 / 5;
 ```
 Entendendo as precedências
@@ -24,7 +24,7 @@ O que isso quer dizer? Se executarmos esse código, primeiro ele vai dividir 5 p
 Para a maioria dos casos, se temos vários operadores com a mesma precedência, eles são resolvidos da esquerda para a direita — exatamente como na matemática.
 
 Na matemática, se quiséssemos realizar a soma primeiro para só depois dividir, a colocaríamos entre parênteses. E na programação, com PHP, é a mesma coisa. Com os parênteses, o PHP vai realizar primeiro toda a soma, e depois dividir por 5.
-```
+```php
 $notaFilme = (9 + 6 + 8 + 7.5 + 5) / 5;
 ```
 No final do código, onde temos echo $nomeFilme, vamos exibir a nota do filme, substituindo o valor desse echo para $notaFilme.
@@ -42,11 +42,11 @@ $incluidoNoPlano = true;
 echo $notaFilme;
 ```
 Vamos abrir o terminal, limpá-lo com o comando cls, e exibir de novo com o comando abaixo.
-```
+```php
 php screen-match.php
 ```
 E temos no resultado a nota calculada, agora como 7.1.
-```
+```php
 Bem-vindo(a) ao screen match!
 
 7.1
@@ -54,7 +54,7 @@ Bem-vindo(a) ao screen match!
 Podemos separar isso em variáveis diferentes. Por exemplo, vamos copiar toda a soma 9 + 6 + 8 + 7.5 + 5, e criar, logo acima da $notaFilme, uma variável $somaDeNotas, que vai receber a soma.
 
 No lugar da soma, em $notaFilme, podemos utilizar outra variável para realizar operações — vamos adicionar $somaDeNotas, que será dividida por 5.
-```
+```php
 $nomeFilme = "Top Gun - Maverick";
 $anoLancamento = 2022;
 $somaDeNotas = 9 + 6 + 8 + 7.5 + 5;
@@ -86,22 +86,22 @@ $incluidoNoPlano = true;
 echo $notaFilme;
 ```
 Poderíamos fazer o seguinte, a primeira nota vai ser somente 9.
-```
+```php
 $somaDeNotas = 9;
 ```
 Vamos duplicar essa linha abaixo dela mesma e depois trocar o valor da $somaDeNotas para $somaDeNotas mais a nota 6.
-```
+```php
 $somaDeNotas = 9;
 $somaDeNotas = $somaDeNotas + 6;
 ```
 Vamos duplicar essa segunda linha abaixo de si e dizer que $somaDeNotas recebe o valor da $somaDeNotas mais a nota 8.
-```
+```php
 $somaDeNotas = 9;
 $somaDeNotas = $somaDeNotas + 6;
 $somaDeNotas = $somaDeNotas + 8;
 ```
 Vamos duplicar de novo e colocar a nota 7,5. No final, vamos duplicar de novo e colocar a nota 5.
-```
+```php
 $somaDeNotas = 9;
 $somaDeNotas = $somaDeNotas + 6;
 $somaDeNotas = $somaDeNotas + 8;
@@ -113,7 +113,7 @@ Temos as 5 notas. Estamos atribuindo e acumulando valores na $somaDeNotas. Prime
 Vamos executar no terminal e ver que temos o mesmo valor de resultado, 7.1.
 
 Dissemos anteriormente que, às vezes, podemos unir operadores. Se temos uma variável sendo adicionada cumulativamente ao valor dela mesma, ao invés de precisar escrever o nome da variável mais o outro número, podemos escrever o símbolo += no lugar do igual. Faremos isso no lugar da primeira duplicata do $somaDeNotas.
-```
+```php
 $somaDeNotas = 9;
 $somaDeNotas += 6;
 $somaDeNotas = $somaDeNotas + 8;
@@ -123,7 +123,7 @@ $somaDeNotas = $somaDeNotas + 5;
 Esse operador acumulará o valor 6 ao valor da própria variável $somaDeNotas, ou seja, adiciona o que colocarmos à direita desse operador ao valor da própria variável. Portanto, o += é um operador de acumulação.
 
 Vamos utilizar esse mesmo operador em todas as duplicatas que temos.
-```
+```php
 $somaDeNotas = 9;
 $somaDeNotas += 6;
 $somaDeNotas += 8;
@@ -159,7 +159,7 @@ Utilizando operadores lógicos
 Já utilizamos operadores matemáticos e agora usaremos operadores lógicos. Em relação à verificação de um filme incluído no plano, podemos adicionar um passo para verificar se a pessoa tem o plano prime incluído ou se esse filme é antigo.
 
 Vamos abrir duas linhas vazias abaixo de $notaFilme = $somaDeNotas / 5 e, na primeira, adicionar a variável $planoPrime para dizer se é um plano prime. Vamos colocá-la com o valor verdadeiro, indicando que é um plano desse tipo.
-```
+```php
 $notaFilme = $somaDeNotas / 5;
 $planoPrime = true;
 
@@ -170,7 +170,7 @@ echo $notaFilme;
 Podemos dizer que o filme está incluído no plano se a pessoa tiver o plano prime ou outra condição. Para isso, temos operadores lógicos como o operador de dois pipes (||), que significa "ou".
 
 Na variável $incluidoNoPlano, no lugar do true, vamos adicionar $planoPrime ||.
-```
+```php
 $notaFilme = $somaDeNotas / 5;
 $planoPrime = true;
 
@@ -181,7 +181,7 @@ echo $notaFilme;
 Com isso, estamos dizendo que o filme é incluído no plano se a pessoa tem o plano prime ou se ocorrer outra condição — no caso, se é um filme antigo.
 
 Para verificar se esse filme é antigo, podemos utilizar mais operadores lógicos. Por exemplo, se o seu ano de lançamento for menor do que 2020, isso seria um filme antigo. Portanto, após o sinal ||, podemos colocar $anoLancamento, sinal de menor (<), 2020.
-```
+```php
 $notaFilme = $somaDeNotas / 5;
 $planoPrime = true;
 
@@ -194,7 +194,7 @@ Esse é um operador de comparação. Ele vai resultar em um booliano. Ou seja, a
 Neste momento, entramos nos detalhes de operadores lógicos: a comparação entre "ou" e um valor verdadeiro ou falso resulta em verdadeiro.
 
 Se usarmos outro operador, como o "e", que é feito através de dois "e"s comerciais (&&), perguntaríamos se está incluído no plano prime e se o ano de lançamento é menor do que 2022, que no caso não é. Com isso, o resultado de $incluidoNoPlano seria falso.
-```
+```php
 $notaFilme = $somaDeNotas / 5;
 $planoPrime = true;
 

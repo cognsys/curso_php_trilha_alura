@@ -8,7 +8,7 @@ No entanto, as versões mais recentes do Ubuntu possuem o PHP disponível nos pa
 Você vai executar o seguinte comando: sudo add-apt-repository ppa:ondrej/php. Isso vai adicionar um PPA, que é basicamente um outro repositório, um outro local para você buscar pacotes.
 
 Adicionado esse repositório, você vai conseguir instalar diversas outras versões do PHP. Então, basta executar o sudo apt install php 8.3. Isso vai fazer algumas perguntas e tudo mais. E no final, quando você executar o comando php -v, você vai ter uma saída parecida com essa, mostrando que você tem instalada a versão 8.3 do PHP.
-
+```
 root@c65d8f517729:/# php -v
 PHP 8.3.2-1+ubuntu22.04.1+deb.sury.org+1 (cli) (built: Jan 20 2024 14
 :16:40) (NTS)
@@ -17,7 +17,7 @@ Zend Engine v4.3.2, Copyright (c) Zend Technologies
     with Zend OPcache v8.3.2-1+ubuntu22.04.1+deb.sury.org+1, Copyrigh
 t (c), by Zend Technologies
 root@c65d8f517729:/#
-
+```
 
 Se, quando você estiver assistindo esse vídeo, a versão mais nova do PHP for outra, como 8.4, 9.0, sem problemas, pode sempre instalar a versão mais recente.
 

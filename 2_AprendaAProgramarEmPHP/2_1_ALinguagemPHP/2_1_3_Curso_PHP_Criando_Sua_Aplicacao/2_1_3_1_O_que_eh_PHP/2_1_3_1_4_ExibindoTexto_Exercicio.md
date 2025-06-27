@@ -1,10 +1,10 @@
 Considere o seguinte trecho de código em PHP:
-
-`<?php
+```php
+<?php
 
 “Olá, meu nome é Alura!”;
 
-?>`
+```
 
 Escolha a alternativa correta referente ao exemplo de código anterior:
 

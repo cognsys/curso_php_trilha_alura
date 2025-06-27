@@ -42,19 +42,19 @@ Voltando ao nosso código PHP, escrevemos somente um texto e o PHP exibiu esse t
 Se queremos escrever código PHP e não somente texto, começamos o nosso arquivo com <?php. Quebramos linha para organizar o código. Podemos adicionar quantas quebras de linha quisermos. E depois vamos executar código PHP.
 
 Para exibir algum texto em PHP, como podemos fazer? Vamos utilizar o comando, a função, como quiserem chamar, echo. Damos um espaço e entre aspas, podem ser aspas duplas ou aspas simples, colocamos nosso texto, nosso mesmo Hello world!. E no final de toda a instrução do PHP, precisamos do ponto e vírgula para indicar que aquela função acabou.
-
+```php
 <?php
 
 echo "Hello world!";
-
+```
 Salvamos novamente, abrimos o nosso terminal, limpamos a tela aqui com o comando cls (no Linux e no Mac é clear). E agora executamos de novo o mesmo programa. E temos exatamente o mesmo resultado, Hello world! sendo exibido.
-
+```
 C:\Users\carlo\Documents\code\curso-php>php primeiro-programa.php Hello world!
-
+```
 Se adicionarmos um ponto de exclamação aqui, salvamos, e executamos mais uma vez, vemos nossos dois pontos de exclamação sendo exibidos.
-
+```
 C:\Users\carlo\Documents\code\curso-php>php primeiro-programa.php Hello world!!
-
+```
 Então, instalamos o PHP, entendemos o que é PHP e onde normalmente ele é executado, e rodamos o nosso primeiro programa em PHP pelo terminal. Agora vamos entender como podemos gerenciar dados no PHP, e vamos entender qual é a aplicação que vamos construir durante este curso.
 
 Esperamos vocês na próxima aula para conhecermos a aplicação com a qual vamos começar a trabalhar, e para conhecermos mais sobre essa linguagem maravilhosa que é o PHP.

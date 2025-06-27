@@ -25,13 +25,13 @@ echo "Bem-vindo(a) ao screen match!";
 ```
 
 Vamos executar isso. Abriremos novamente o terminal e digitaremos nele:
-
+```php
 php screen-match.php
-Copiar código
+```
 Ao executar, veremos o texto de boas-vindas como resposta.
-
+```php
 Bem-vindo(a) ao screen match!
-
+```
 Fechando o terminal de novo e voltando ao código, queremos armazenar as informações do filme. Assim como aprendemos na introdução à programação, temos o conceito de variáveis que nos permite ter nomes para dados que vamos manipular no sistema.
 
 Por exemplo, vamos trabalhar com o nome de um filme. Na linha 5, poderíamos ter o nome Top Gun - Maverick entre aspas. Colocaremos pontoa e vírgula no final, porque é assim que sempre terminamos as instruções do PHP.
@@ -102,11 +102,11 @@ Podemos perceber que, no anoLancamento, não temos aspas. Isso ocorre, pois o va
 Nos referimos a esse tipo de número, no mundo da programação e também da matemática, como um valor inteiro, porque não possui nenhuma casa decimal.
 
 O que mais podemos armazenar? Por exemplo, na linha seguinte, vamos adicionar a nota do filme por meio de $notaFilme, com F maiúsculo. Vamos dizer que esse filme recebe 8.8 de nota.
-
+```php
 $nomeFilme = "Top Gun - Maverick";
 $anoLancamento = 2022;
 $notaFilme = 8.8;
-
+```
 Nessa variável, temos um valor decimal, que no PHP, vamos chamar de double ou float.
 
 Esse float significa que ele é um número de ponto flutuante. É uma forma de se representar números decimais na programação. Já double significa um número de ponto flutuante com precisão dupla.
@@ -124,24 +124,24 @@ Vamos criar uma nova variável abaixo na próxima linha, chamada $incluidoNoPlan
 O nome desse tipo de valor é booliano, que trabalha com verdadeiro ou falso, sim ou não — true ou false, conforme escrevemos no código.
 
 Se queremos informar que ele está incluído no plano, ou seja, se esse valor booliano é verdadeiro, escrevemos true, que é verdadeiro em inglês.
-
+```php
 $nomeFilme = "Top Gun - Maverick";
 $anoLancamento = 2022;
 $notaFilme = 8.8;
 $incluidoNoPlano = true;
-
+```
 Se quiséssemos informar que ele não está incluído, diríamos que é false.
 
 Podemos perceber que já utilizamos diversos tipos de dados no nosso código PHP.
 
 Vamos pular uma linha e tentar exibir somente o nome do filme, nada mais, por meio do comando abaixo.
-
+```php
 echo $nomeFilme;
-
+```
 Vamos abrir o terminal, executar o comando cls para limpá-lo e rodar o seguinte comando:
-
+```php
 php screenmatch.php
-
+```
 No retorno, veremos um detalhe interessante, temos "Bem-vindo(a) ao screen match" e, na mesma linha, já estamos exibindo o nome do filme, sem quebra de linha.
 
 Bem-vindo(a) ao screen match!Top Gun - Maverick
@@ -155,14 +155,14 @@ Podemos, dentre várias opções, adicionar um "Enter" entre o texto de boas-vin
 ```php
 <?php
 
-echo "Bem-vindo(a) ao screen match!"
-;
+echo "Bem-vindo(a) ao screen match!";
 ```
 Ao executar novamente, temos no terminal o texto "Bem-vindo(a) ao screen match!", e na próxima linha temos "Top Gun - Maverick".
-
+```php
 Bem-vindo(a) ao screen match!
 
 Top Gun - Maverick
+```
 
 Existe muita coisa que podemos e devemos falar sobre variáveis, mas estamos partindo do princípio, como já foi dito, que sabemos o básico de programação. Já sabemos, por exemplo, realizar operações com variáveis. Mesmo assim, Disponibilizaremos uma atividade "Para saber mais" sobre os tipos de dados e os operadores para esses tipos.
 
@@ -170,8 +170,7 @@ O código completo deste vídeo pode ser consultado abaixo.
 ```php
 <?php
 
-echo "Bem-vindo(a) ao screen match!"
-;
+echo "Bem-vindo(a) ao screen match!";
 
 $nomeFilme = "Top Gun - Maverick";
 $anoLancamento = 2022;
