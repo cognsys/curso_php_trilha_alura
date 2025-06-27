@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="416d8ab1-757e-450c-92a6-6ae01f68a3e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_1_O_que_eh_PHP/2_1_3_1_4_ExibindoTexto_Exercicio.md" beforeDir="false" afterPath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_1_O_que_eh_PHP/2_1_3_1_4_ExibindoTexto_Exercicio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/003_Operadores" beforeDir="false" afterPath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/2_1_3_2_3_Operadores_ParaSaberMais.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/004_Dinheiro" beforeDir="false" afterPath="$PROJECT_DIR$/2_1_ALinguagemPHP/2_1_3_Curso_PHP_Criando_Sua_Aplicacao/2_1_3_2_Catalogo_De_Filmes/2_1_3_2_4_Dinheiro_ParaSaberMais.md" afterDir="false" />
-    </list>
+    <list default="true" id="416d8ab1-757e-450c-92a6-6ae01f68a3e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750964521208</updated>
       <workItem from="1750964522415" duration="8000" />
-      <workItem from="1751041120815" duration="3221000" />
+      <workItem from="1751041120815" duration="3569000" />
     </task>
     <servers />
   </component>
